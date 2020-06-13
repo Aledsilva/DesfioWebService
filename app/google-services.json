@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "945495286795",
+    "firebase_url": "https://chorei-mas-passo-bem.firebaseio.com",
+    "project_id": "chorei-mas-passo-bem",
+    "storage_bucket": "chorei-mas-passo-bem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945495286795:android:023999d569349cce31530e",
+        "android_client_info": {
+          "package_name": "com.example.chorandinhoemdesesperovol7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945495286795-iuvf888lrnbaoh2foqrcejacqm6s76ie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfBNW0fCWTj8ITXI_GOUb9zvYd5evIkc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945495286795-iuvf888lrnbaoh2foqrcejacqm6s76ie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
