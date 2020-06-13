@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="4dp"
-    tools:context=".ui.activities.ActDetailsJAVA">
+    tools:context=".ui.activities.ActDetails">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_detail"

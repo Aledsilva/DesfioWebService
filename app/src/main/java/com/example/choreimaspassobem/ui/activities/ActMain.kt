@@ -11,7 +11,7 @@ import com.example.choreimaspassobem.model.Results
 import com.example.choreimaspassobem.util.viewModel
 import com.example.choreimaspassobem.viewmodel.ViewModelMarvel
 
-class MainActivity : AppCompatActivity() {
+class ActMain : AppCompatActivity() {
 
     private val viewModelMarvel by lazy { viewModel<ViewModelMarvel>() }
     private var results = mutableSetOf<Results>()

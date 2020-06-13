@@ -12,7 +12,7 @@ import com.example.choreimaspassobem.model.Results;
 import com.squareup.picasso.Picasso;
 
 
-public class ActDetailsJAVA extends AppCompatActivity {
+public class ActDetails extends AppCompatActivity {
     private ImageView imageComics, imageBackgro;
     private TextView title, description;
 

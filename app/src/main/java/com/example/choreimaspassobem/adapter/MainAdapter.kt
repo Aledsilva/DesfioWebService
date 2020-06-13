@@ -8,7 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.choreimaspassobem.R
-import com.example.choreimaspassobem.ui.activities.ActDetailsJAVA
+import com.example.choreimaspassobem.ui.activities.ActDetails
 import com.example.choreimaspassobem.model.Results
 import com.squareup.picasso.Picasso
 
@@ -31,7 +31,7 @@ class MainAdapter(val comicsList: MutableSet<Results>) : RecyclerView.Adapter<My
         holder.name_hq.text = comic.title
 
         holder.cardviewGerada.setOnClickListener {v ->
-            val intent = Intent(v.context, ActDetailsJAVA::class.java)
+            val intent = Intent(v.context, ActDetails::class.java)
             intent.putExtra("COMICAO", comic)
                 v.context.startActivity(intent)
         }

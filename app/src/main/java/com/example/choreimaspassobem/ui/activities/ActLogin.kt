@@ -18,7 +18,7 @@ class ActLogin : AppCompatActivity() {
     private val onClickEnter = View.OnClickListener { view ->
         if (loginValidation(name, email, password)) {
             Toast.makeText(view.context, "Bem-vindo " + name.text.toString() + "!!", Toast.LENGTH_LONG).show()
-            startActivity(Intent(view.context, MainActivity::class.java))
+            startActivity(Intent(view.context, ActMain::class.java))
         } else {
             Toast.makeText(view.context, "Por favor, preencha todos os campos!", Toast.LENGTH_LONG).show()
         }

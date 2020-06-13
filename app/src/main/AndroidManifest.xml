@@ -12,9 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ui.activities.ActLogin"></activity>
-        <activity android:name=".ui.activities.ActDetailsJAVA"></activity>
-        <activity android:name=".ui.activities.MainActivity"/>
+        <activity android:name=".ui.activities.ActLogin" />
+        <activity android:name=".ui.activities.ActDetails" />
+        <activity android:name=".ui.activities.ActMain"/>
         <activity
             android:name=".ui.activities.SplashScreen"
             android:noHistory="true"
